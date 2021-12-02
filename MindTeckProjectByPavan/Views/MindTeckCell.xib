@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MindTeckCell" id="KGk-i7-Jjw" customClass="MindTeckCell" customModule="MindTeckProjectByPavan" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aR3-ji-6Go">
+                        <rect key="frame" x="5" y="5" width="310" height="36.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yFq-DR-VIo">
+                                <rect key="frame" x="52" y="0.0" width="248" height="36.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="36.5" id="Dxx-op-gsN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Lno-Oi-2zh">
+                                <rect key="frame" x="0.0" y="2.5" width="32" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="6Qh-yi-agC"/>
+                                    <constraint firstAttribute="width" constant="32" id="Qym-8e-H5q"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.87450980389999999" green="0.94901960780000005" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Lno-Oi-2zh" firstAttribute="leading" secondItem="aR3-ji-6Go" secondAttribute="leading" id="DbJ-XG-QiO"/>
+                            <constraint firstItem="Lno-Oi-2zh" firstAttribute="centerY" secondItem="yFq-DR-VIo" secondAttribute="centerY" id="NuL-gb-nR8"/>
+                            <constraint firstAttribute="trailing" secondItem="yFq-DR-VIo" secondAttribute="trailing" constant="10" id="XGg-6y-rR1"/>
+                            <constraint firstAttribute="bottom" secondItem="yFq-DR-VIo" secondAttribute="bottom" id="ZxP-P1-Yvd"/>
+                            <constraint firstItem="yFq-DR-VIo" firstAttribute="leading" secondItem="Lno-Oi-2zh" secondAttribute="trailing" constant="20" id="n8v-mJ-e28"/>
+                            <constraint firstItem="yFq-DR-VIo" firstAttribute="top" secondItem="aR3-ji-6Go" secondAttribute="top" id="vmF-El-THH"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="aR3-ji-6Go" secondAttribute="trailing" constant="5" id="WUB-df-Wnq"/>
+                    <constraint firstAttribute="bottom" secondItem="aR3-ji-6Go" secondAttribute="bottom" constant="2.5" id="YTn-Xc-T3R"/>
+                    <constraint firstItem="aR3-ji-6Go" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="nCn-5l-bku"/>
+                    <constraint firstItem="aR3-ji-6Go" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="uTU-cD-RFd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" red="0.87450980389999999" green="0.94901960780000005" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="logoImageView" destination="Lno-Oi-2zh" id="XhA-24-x5v"/>
+                <outlet property="nameLabel" destination="yFq-DR-VIo" id="wAl-ob-5C6"/>
+            </connections>
+            <point key="canvasLocation" x="128.98550724637681" y="130.58035714285714"/>
+        </tableViewCell>
+    </objects>
+</document>

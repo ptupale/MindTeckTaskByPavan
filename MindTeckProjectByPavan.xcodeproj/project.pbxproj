@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E23EDA12758C11600A07A7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E23EDA02758C11600A07A7C /* AppDelegate.swift */; };
+		6E23EDA32758C11600A07A7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E23EDA22758C11600A07A7C /* SceneDelegate.swift */; };
+		6E23EDA52758C11600A07A7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E23EDA42758C11600A07A7C /* ViewController.swift */; };
+		6E23EDA82758C11600A07A7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E23EDA62758C11600A07A7C /* Main.storyboard */; };
+		6E23EDAA2758C12900A07A7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E23EDA92758C12900A07A7C /* Assets.xcassets */; };
+		6E23EDAD2758C12900A07A7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E23EDAB2758C12900A07A7C /* LaunchScreen.storyboard */; };
+		6E23EDB82758C12B00A07A7C /* MindTeckProjectByPavanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E23EDB72758C12B00A07A7C /* MindTeckProjectByPavanTests.swift */; };
+		6E23EDC32758C12B00A07A7C /* MindTeckProjectByPavanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E23EDC22758C12B00A07A7C /* MindTeckProjectByPavanUITests.swift */; };
+		6E23EDD52758C2FA00A07A7C /* BLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E23EDD42758C2FA00A07A7C /* BLogic.swift */; };
+		6E23EDDE2758C36200A07A7C /* UseDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E23EDDD2758C36200A07A7C /* UseDataModel.swift */; };
+		6E23EDE22758C5F300A07A7C /* MindTeckCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E23EDE02758C5F200A07A7C /* MindTeckCell.xib */; };
+		6E23EDE32758C5F300A07A7C /* MindTeckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E23EDE12758C5F200A07A7C /* MindTeckCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E23EDB42758C12B00A07A7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E23ED952758C11600A07A7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E23ED9C2758C11600A07A7C;
+			remoteInfo = MindTeckProjectByPavan;
+		};
+		6E23EDBF2758C12B00A07A7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E23ED952758C11600A07A7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E23ED9C2758C11600A07A7C;
+			remoteInfo = MindTeckProjectByPavan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E23ED9D2758C11600A07A7C /* MindTeckProjectByPavan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindTeckProjectByPavan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E23EDA02758C11600A07A7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E23EDA22758C11600A07A7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6E23EDA42758C11600A07A7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E23EDA72758C11600A07A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E23EDA92758C12900A07A7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E23EDAC2758C12900A07A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E23EDAE2758C12900A07A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E23EDB32758C12B00A07A7C /* MindTeckProjectByPavanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindTeckProjectByPavanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E23EDB72758C12B00A07A7C /* MindTeckProjectByPavanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindTeckProjectByPavanTests.swift; sourceTree = "<group>"; };
+		6E23EDB92758C12B00A07A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E23EDBE2758C12B00A07A7C /* MindTeckProjectByPavanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindTeckProjectByPavanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E23EDC22758C12B00A07A7C /* MindTeckProjectByPavanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindTeckProjectByPavanUITests.swift; sourceTree = "<group>"; };
+		6E23EDC42758C12B00A07A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E23EDD42758C2FA00A07A7C /* BLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLogic.swift; sourceTree = "<group>"; };
+		6E23EDDD2758C36200A07A7C /* UseDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseDataModel.swift; sourceTree = "<group>"; };
+		6E23EDE02758C5F200A07A7C /* MindTeckCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MindTeckCell.xib; sourceTree = "<group>"; };
+		6E23EDE12758C5F200A07A7C /* MindTeckCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MindTeckCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E23ED9A2758C11600A07A7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E23EDB02758C12B00A07A7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E23EDBB2758C12B00A07A7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E23ED942758C11600A07A7C = {
+			isa = PBXGroup;
+			children = (
+				6E23ED9F2758C11600A07A7C /* MindTeckProjectByPavan */,
+				6E23EDB62758C12B00A07A7C /* MindTeckProjectByPavanTests */,
+				6E23EDC12758C12B00A07A7C /* MindTeckProjectByPavanUITests */,
+				6E23ED9E2758C11600A07A7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E23ED9E2758C11600A07A7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E23ED9D2758C11600A07A7C /* MindTeckProjectByPavan.app */,
+				6E23EDB32758C12B00A07A7C /* MindTeckProjectByPavanTests.xctest */,
+				6E23EDBE2758C12B00A07A7C /* MindTeckProjectByPavanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E23ED9F2758C11600A07A7C /* MindTeckProjectByPavan */ = {
+			isa = PBXGroup;
+			children = (
+				6E23EDDF2758C5E200A07A7C /* Views */,
+				6E23EDD32758C2B300A07A7C /* Model */,
+				6E23EDD22758C29E00A07A7C /* Class */,
+				6E23EDD12758C27D00A07A7C /* Logic */,
+				6E23EDA02758C11600A07A7C /* AppDelegate.swift */,
+				6E23EDA22758C11600A07A7C /* SceneDelegate.swift */,
+				6E23EDA62758C11600A07A7C /* Main.storyboard */,
+				6E23EDA92758C12900A07A7C /* Assets.xcassets */,
+				6E23EDAB2758C12900A07A7C /* LaunchScreen.storyboard */,
+				6E23EDAE2758C12900A07A7C /* Info.plist */,
+			);
+			path = MindTeckProjectByPavan;
+			sourceTree = "<group>";
+		};
+		6E23EDB62758C12B00A07A7C /* MindTeckProjectByPavanTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E23EDB72758C12B00A07A7C /* MindTeckProjectByPavanTests.swift */,
+				6E23EDB92758C12B00A07A7C /* Info.plist */,
+			);
+			path = MindTeckProjectByPavanTests;
+			sourceTree = "<group>";
+		};
+		6E23EDC12758C12B00A07A7C /* MindTeckProjectByPavanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E23EDC22758C12B00A07A7C /* MindTeckProjectByPavanUITests.swift */,
+				6E23EDC42758C12B00A07A7C /* Info.plist */,
+			);
+			path = MindTeckProjectByPavanUITests;
+			sourceTree = "<group>";
+		};
+		6E23EDD12758C27D00A07A7C /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				6E23EDD42758C2FA00A07A7C /* BLogic.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		6E23EDD22758C29E00A07A7C /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				6E23EDA42758C11600A07A7C /* ViewController.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		6E23EDD32758C2B300A07A7C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E23EDDD2758C36200A07A7C /* UseDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6E23EDDF2758C5E200A07A7C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6E23EDE12758C5F200A07A7C /* MindTeckCell.swift */,
+				6E23EDE02758C5F200A07A7C /* MindTeckCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E23ED9C2758C11600A07A7C /* MindTeckProjectByPavan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E23EDC72758C12B00A07A7C /* Build configuration list for PBXNativeTarget "MindTeckProjectByPavan" */;
+			buildPhases = (
+				6E23ED992758C11600A07A7C /* Sources */,
+				6E23ED9A2758C11600A07A7C /* Frameworks */,
+				6E23ED9B2758C11600A07A7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindTeckProjectByPavan;
+			productName = MindTeckProjectByPavan;
+			productReference = 6E23ED9D2758C11600A07A7C /* MindTeckProjectByPavan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E23EDB22758C12B00A07A7C /* MindTeckProjectByPavanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E23EDCA2758C12B00A07A7C /* Build configuration list for PBXNativeTarget "MindTeckProjectByPavanTests" */;
+			buildPhases = (
+				6E23EDAF2758C12B00A07A7C /* Sources */,
+				6E23EDB02758C12B00A07A7C /* Frameworks */,
+				6E23EDB12758C12B00A07A7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E23EDB52758C12B00A07A7C /* PBXTargetDependency */,
+			);
+			name = MindTeckProjectByPavanTests;
+			productName = MindTeckProjectByPavanTests;
+			productReference = 6E23EDB32758C12B00A07A7C /* MindTeckProjectByPavanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E23EDBD2758C12B00A07A7C /* MindTeckProjectByPavanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E23EDCD2758C12B00A07A7C /* Build configuration list for PBXNativeTarget "MindTeckProjectByPavanUITests" */;
+			buildPhases = (
+				6E23EDBA2758C12B00A07A7C /* Sources */,
+				6E23EDBB2758C12B00A07A7C /* Frameworks */,
+				6E23EDBC2758C12B00A07A7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E23EDC02758C12B00A07A7C /* PBXTargetDependency */,
+			);
+			name = MindTeckProjectByPavanUITests;
+			productName = MindTeckProjectByPavanUITests;
+			productReference = 6E23EDBE2758C12B00A07A7C /* MindTeckProjectByPavanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E23ED952758C11600A07A7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6E23ED9C2758C11600A07A7C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					6E23EDB22758C12B00A07A7C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 6E23ED9C2758C11600A07A7C;
+					};
+					6E23EDBD2758C12B00A07A7C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 6E23ED9C2758C11600A07A7C;
+					};
+				};
+			};
+			buildConfigurationList = 6E23ED982758C11600A07A7C /* Build configuration list for PBXProject "MindTeckProjectByPavan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E23ED942758C11600A07A7C;
+			productRefGroup = 6E23ED9E2758C11600A07A7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E23ED9C2758C11600A07A7C /* MindTeckProjectByPavan */,
+				6E23EDB22758C12B00A07A7C /* MindTeckProjectByPavanTests */,
+				6E23EDBD2758C12B00A07A7C /* MindTeckProjectByPavanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E23ED9B2758C11600A07A7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E23EDAD2758C12900A07A7C /* LaunchScreen.storyboard in Resources */,
+				6E23EDAA2758C12900A07A7C /* Assets.xcassets in Resources */,
+				6E23EDE22758C5F300A07A7C /* MindTeckCell.xib in Resources */,
+				6E23EDA82758C11600A07A7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E23EDB12758C12B00A07A7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E23EDBC2758C12B00A07A7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E23ED992758C11600A07A7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E23EDE32758C5F300A07A7C /* MindTeckCell.swift in Sources */,
+				6E23EDA52758C11600A07A7C /* ViewController.swift in Sources */,
+				6E23EDDE2758C36200A07A7C /* UseDataModel.swift in Sources */,
+				6E23EDA12758C11600A07A7C /* AppDelegate.swift in Sources */,
+				6E23EDA32758C11600A07A7C /* SceneDelegate.swift in Sources */,
+				6E23EDD52758C2FA00A07A7C /* BLogic.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E23EDAF2758C12B00A07A7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E23EDB82758C12B00A07A7C /* MindTeckProjectByPavanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E23EDBA2758C12B00A07A7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E23EDC32758C12B00A07A7C /* MindTeckProjectByPavanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E23EDB52758C12B00A07A7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E23ED9C2758C11600A07A7C /* MindTeckProjectByPavan */;
+			targetProxy = 6E23EDB42758C12B00A07A7C /* PBXContainerItemProxy */;
+		};
+		6E23EDC02758C12B00A07A7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E23ED9C2758C11600A07A7C /* MindTeckProjectByPavan */;
+			targetProxy = 6E23EDBF2758C12B00A07A7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E23EDA62758C11600A07A7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E23EDA72758C11600A07A7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E23EDAB2758C12900A07A7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E23EDAC2758C12900A07A7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E23EDC52758C12B00A07A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E23EDC62758C12B00A07A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E23EDC82758C12B00A07A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MW9DTVFS9;
+				INFOPLIST_FILE = MindTeckProjectByPavan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksrsac.MindTeckProjectByPavan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E23EDC92758C12B00A07A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MW9DTVFS9;
+				INFOPLIST_FILE = MindTeckProjectByPavan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksrsac.MindTeckProjectByPavan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E23EDCB2758C12B00A07A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 389Z6S2CX7;
+				INFOPLIST_FILE = MindTeckProjectByPavanTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksrsac.employeeattendance.MindTeckProjectByPavanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindTeckProjectByPavan.app/MindTeckProjectByPavan";
+			};
+			name = Debug;
+		};
+		6E23EDCC2758C12B00A07A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 389Z6S2CX7;
+				INFOPLIST_FILE = MindTeckProjectByPavanTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksrsac.employeeattendance.MindTeckProjectByPavanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindTeckProjectByPavan.app/MindTeckProjectByPavan";
+			};
+			name = Release;
+		};
+		6E23EDCE2758C12B00A07A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 389Z6S2CX7;
+				INFOPLIST_FILE = MindTeckProjectByPavanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksrsac.employeeattendance.MindTeckProjectByPavanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindTeckProjectByPavan;
+			};
+			name = Debug;
+		};
+		6E23EDCF2758C12B00A07A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 389Z6S2CX7;
+				INFOPLIST_FILE = MindTeckProjectByPavanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksrsac.employeeattendance.MindTeckProjectByPavanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindTeckProjectByPavan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E23ED982758C11600A07A7C /* Build configuration list for PBXProject "MindTeckProjectByPavan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E23EDC52758C12B00A07A7C /* Debug */,
+				6E23EDC62758C12B00A07A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E23EDC72758C12B00A07A7C /* Build configuration list for PBXNativeTarget "MindTeckProjectByPavan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E23EDC82758C12B00A07A7C /* Debug */,
+				6E23EDC92758C12B00A07A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E23EDCA2758C12B00A07A7C /* Build configuration list for PBXNativeTarget "MindTeckProjectByPavanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E23EDCB2758C12B00A07A7C /* Debug */,
+				6E23EDCC2758C12B00A07A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E23EDCD2758C12B00A07A7C /* Build configuration list for PBXNativeTarget "MindTeckProjectByPavanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E23EDCE2758C12B00A07A7C /* Debug */,
+				6E23EDCF2758C12B00A07A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E23ED952758C11600A07A7C /* Project object */;
+}
